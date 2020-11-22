@@ -1,0 +1,145 @@
+.navbar {
+    width: 100%;
+    padding: 10 px;
+}    
+.navbar-link:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    padding: 10px;
+}
+.row {
+    padding: 10px;
+}
+#card {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.page-footer {
+    background-color: #d3d3dd;
+}
+.footer-links {
+    text-align: center;
+}
+.span {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+}
+
+.navbar-logo {
+    width: 125px; 
+}
+
+.profile-picture {
+    width: 25px;
+    margin: 5px; 
+    /* The postition is goign to be relative to the parent object */
+    position: relative;
+    top: -3px;
+    /* Make the picture Circle */
+    border-radius: 50%;
+}
+
+.covid-alert {
+    background-color: #0067B8; 
+    color: white; 
+    text-align: center;
+    padding: 10px; 
+    display: inline-block; 
+    width: 100%; 
+}
+
+.covid-alert:hover {
+    /* Remove the line under the text */
+    color: white; 
+    border: 1px dashed black;
+}
+
+/* Cars Section */
+.our-card {
+    width:100%; 
+    margin: 10px; 
+}
+
+.our-card-body {
+    margin: 10px; 
+}
+
+/* .our-card-link {
+    transition: 0.3s;
+}
+
+.our-card-link:hover {
+    text-decoration: none;
+    transform: scale(1.1); 
+} */
+
+
+.our-card-link {
+    display: inline-block;
+  }
+
+  .our-card-link:hover{
+      text-decoration: none;
+  }
+  
+  .our-card-link::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
+  
+  .our-card-link:hover::after {
+    width: 100%;
+  } 
+
+
+
+
+  .ads {
+      margin: 10px 0;
+  }
+
+
+
+  .social-media-button {
+      font-size:30px;
+      margin: 10px;
+      transition: 0.3s;
+      display: inline-block;
+  }
+
+  .social-media-button:hover {
+      transform: scale(1.2);
+  }
+
+  .facebook {
+    color: #3b5998 ;
+  }
+  .facebook:hover {
+    color: #3b5998 ;
+  }
+  .youtube {
+    color: #FF0000;
+  }
+  .youtube:hover {
+    color: #FF0000;
+  }
+
+  .twitter {
+    color: #1DA1F2;
+  }
+  .twitter:hover {
+    color: #1DA1F2;
+  }
+
+  .instagram {
+    color: #C13584;
+  }
+  .instagram:hover {
+    color: #C13584;
+  }
